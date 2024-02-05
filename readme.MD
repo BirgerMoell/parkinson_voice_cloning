@@ -1,6 +1,14 @@
 ## Parkinson Voice Cloning
 
+##
+Step 1. Speech to text
 
+On macOS: brew install ffmpeg
+ffmpeg is a crucial dependency for many audio and video processing tasks, including the operation of the Whisper library
+
+pip install git+https://github.com/openai/whisper.git
+
+pyhton transcribe.py
 
 ## Difference between age and parkinson
 https://www.mdpi.com/2076-3417/11/5/2235
